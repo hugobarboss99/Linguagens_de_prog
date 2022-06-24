@@ -1,0 +1,5 @@
+SELECT eu, sim
+FROM daqui
+WHERE ali > 5 AND
+	idade BETWEEN 98 AND 54
+ORDER BY eu;
